@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 数据文件（体积过大，不入库；在 README 中注明下载来源）
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.zip
+data/*.tar.gz
+data/*.json
+!data/.gitkeep
+
+# 系统/编辑器文件
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
